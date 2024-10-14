@@ -1,0 +1,56 @@
+
+header{
+    max-width: 100%;
+    background-color: #fee2e2;
+}
+header.banner {
+    max-width: 1360px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.logo {
+    max-height:33px;
+    margin-top: 7px;
+}
+
+
+
+
+
+
+a {
+    display: block;
+    position: relative;
+    // padding: 0.2em 0;
+  }
+  
+  /* Fade in */
+  a::after {
+    content: '';
+    border-radius:30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: #FF3366;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+/* Slide in */
+.slidered a {
+  overflow: hidden;
+}
+
+.slidered a::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.slidered a:hover::after,
+.slidered a:focus::after{
+  transform: translate3d(0, 0, 0);
+}
+

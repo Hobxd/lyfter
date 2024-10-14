@@ -1,0 +1,70 @@
+.text-media-blauw{
+    
+    padding-bottom: 120px;
+}
+
+.text-media-flex{
+    padding-top: 200px;
+    display: flex;
+    gap: 90px;
+  
+}
+
+.text-media-left-bl{
+    flex-basis: 50%;
+    height: 682px;
+    align-content: center;
+}
+
+.text-media-right-pnk{
+    flex-basis: 50%;
+    height: 682px;
+    align-content: center;
+}
+
+.text-media-right-bl{
+    flex-basis: 50%;
+    height: 682px;
+    background-color: #ebf2fd;
+    border-radius: 20px;
+    position:relative;
+}
+
+.text-media-left-pnk{
+    flex-basis: 50%;
+    height: 682px;
+    background-color: #feeaef;
+    border-radius: 20px;
+    position:relative;
+}
+
+.phone-high{
+    height: 862px;
+    width: 100%;
+    position: absolute;
+    top: -181px;
+    overflow: hidden;
+}
+
+.phone-blauw{
+    background-image: url("https://wordpressonvalet.test/wp-content/uploads/2024/10/72fbf012005aa3ba50ff0affcb644505.png");
+    height: 862px;
+    background-size: cover;
+    width: 420px;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    right: 105px;
+    rotate: 5deg;
+    box-shadow: 1px 1px 10px 1px #0403036b;
+    border-radius: 79px;
+}
+
+.right-swirl-blue {
+    left: -71px;
+    position: absolute;
+    top: 100px;
+    width: 705px;
+    z-index: 1;
+    max-width: 705px;
+}

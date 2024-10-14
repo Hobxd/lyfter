@@ -1,0 +1,153 @@
+//button green
+
+.button-style-green {
+    background-color: #00D1B2;
+    margin-right: 20px;
+    border-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    position:relative;
+    z-index: 1;
+    transition: 0.5s;
+    overflow: hidden;
+    border: transparent solid 1px;
+  }
+
+  .button-style-green:hover{
+    color:#000;
+    border: #d5d5d5 solid 1px
+  }
+
+  .button-style-green::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #fff;
+    z-index: -1;
+    transition: 0.5s;
+
+  }
+
+.button-style-green::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.button-style-green:hover::before{
+    height: 180%;
+}
+
+  .button-style-green svg {
+    display: inline-block;
+     vertical-align: middle;
+     margin-right: 5px;
+  }
+
+
+
+
+// button black
+
+  .button-style-black {
+    background-color: #000;
+    margin-right: 20px;
+    border-radius: 30px;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    position:relative;
+    z-index: 1;
+    transition: 0.5s;
+    overflow: hidden;
+    border: transparent solid 1px
+  }
+  
+  .button-style-black svg {
+    display: inline-block;
+     vertical-align: middle;
+     margin-right: 5px;
+  }
+
+ 
+  .button-style-black:hover{
+    color:#000;
+    border: #d5d5d5 solid 1px
+  }
+
+  .button-style-black::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #fff;
+    z-index: -1;
+    transition: 0.5s;
+
+  }
+
+.button-style-black::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.button-style-black:hover::before{
+    height: 180%;
+}
+
+
+// button contact
+
+.button-style-contact {
+  background-color: transparent;
+  border-radius: 30px;
+  display: inline-block;
+  color: #000;
+  padding: 10px 20px;
+  border: solid 1px #d5d5d5;
+  position:relative;
+  z-index: 1;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.button-style-contact svg {
+  display: inline-block;
+   vertical-align: middle;
+   margin-right: 5px;
+}
+
+
+.button-style-contact:hover{
+  color:#000;
+}
+
+.button-style-contact::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: #d5d5d569;
+  z-index: -1;
+  transition: 0.5s;
+
+}
+
+.button-style-contact::before{
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.button-style-contact:hover::before{
+  height: 180%;
+}
+
+//border-gray
+
+.border-style{
+  border: #d5d5d5 solid 1px
+}

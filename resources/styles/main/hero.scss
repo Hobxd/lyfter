@@ -1,0 +1,194 @@
+//hero
+.hero-header{
+    min-height: 765px;
+    position: relative;
+    border-bottom-left-radius: 100% 17%;
+    border-bottom-right-radius: 100% 17%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+// columns header title
+.flex-hero{
+  display: flex; 
+  height: 716px;
+  align-items: center;
+}
+
+.col-1-hero{
+  flex-basis:540px;
+}
+.col-2-hero{
+  flex-basis:820px;
+}
+
+.margin-hero{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.margin-gap{
+  margin-top:12px;
+}
+
+
+//roze strik hero
+
+.Pink-swirl{
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 29px;
+  left: -79px;
+
+}
+
+//house
+
+img.house-bg {
+  height: 1200px;
+  width: 1200px;
+  position: absolute;
+  right: -309px;
+  top: 27px;
+  z-index: -1;
+  object-fit: none;
+  border-radius: 100%;				
+  object-position: 95% 102%;
+}
+
+//telefoon
+
+.phone-mockup{
+  background-image: url("https://wordpressonvalet.test/wp-content/uploads/2024/10/72fbf012005aa3ba50ff0affcb644505.png");
+  height: 862px;
+  background-size: cover;
+  width: 420px;
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  right: 128px;
+  rotate: 5deg;
+  box-shadow: 1px 1px 10px 1px #0403036b;
+  border-radius: 79px;
+}
+
+.phone-bg {
+  padding: 15px;
+  border-radius: 72px;
+}
+
+//horloge
+
+.watch-mockup{
+  background-image: url("https://wordpressonvalet.test/wp-content/uploads/2024/10/e799081dabc0896f318213607c885dd5.png");
+  width: 677px;
+  height: 508px;
+  background-size: contain;
+  position: absolute;
+  z-index: 2;
+  top: 458px;
+  right: 282px;
+  rotate: 16deg;
+}
+
+
+//witte label
+
+.label-head{
+  padding: 7px 15px;
+  background: white;
+  border-radius: 30px;
+  width: max-content;
+}
+
+.circle-float{
+  display: inline-block;
+ 
+}
+
+.label-float{
+  display: inline-block;
+  padding-left: 5px;
+
+}
+
+
+
+
+//groene circel
+
+.pulsating-circle {
+  position: relative;
+  left: 0%;
+  top: 1px;
+  
+  width: 12px;
+  height: 12px;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 300%;
+    height: 300%;
+    box-sizing: border-box;
+    margin-left: -100%;
+    margin-top: -100%;
+    border-radius: 45px;
+    background-color: #00D1B2;
+    animation: pulse-ring 1.25s  infinite;
+  }
+  
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0; 
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #00D1B2;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    animation: pulse-dot 1.25s  -.4s infinite;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(.33);
+  }
+  40%, 100% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.8);
+  }
+}
+
+// animate-in animatie
+
+.animate-in{
+  
+  transform: translate(100%, 50%);
+
+  transition: transform 0.5s ease-out;
+  
+
+}
+
+.visible{
+  transform: translate(0, 0);
+ 
+  
+}
