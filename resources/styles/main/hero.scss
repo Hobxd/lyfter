@@ -176,11 +176,11 @@ img.house-bg {
   }
 }
 
-// animate-in animatie
+/* animate-in animatie
 
 .animate-in{
   
-  transform: translate(100%, 50%);
+transform: translate(100%, 50%);
 
   transition: transform 0.5s ease-out;
   
@@ -190,5 +190,26 @@ img.house-bg {
 .visible{
   transform: translate(0, 0);
  
+
   
+}
+*/
+
+.animate-bounce-in{
+  animation: slideIn 800ms forwards;
+}
+
+@keyframes slideIn {
+
+  0% {
+    transform: translate(100%, 50%);
+  }
+  
+  70% {
+    transform: translate(-2%, -1%);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }

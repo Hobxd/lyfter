@@ -25,8 +25,9 @@
     }
 
     .svg-circle-ontop{
-        scale: 1;
-        transition-duration: 0.2s;
+        //scale: 1;
+        //transition-duration: 0.2s;
+        animation: scaleIn 0.5s forwards;
     }
    
 
@@ -50,8 +51,9 @@
     }
 
     .svg-circle-ontop{
-        scale: 1;
-        transition-duration: 0.2s;
+        //scale: 1;
+        //transition-duration: 0.2s;
+        animation: scaleIn 0.5s forwards;
     }
    
 }
@@ -73,8 +75,9 @@
     }
 
     .svg-circle-ontop{
-        scale: 1;
-        transition-duration: 0.2s;
+        //scale: 1;
+        //transition-duration: 0.2s;
+        animation: scaleIn 0.5s forwards;
     }
    
 }
@@ -97,8 +100,9 @@
     padding:20px;
     border-radius: 50%;
     width: max-content;
-    scale: 0;
-    transition: 0.2s;
+    //scale: 0;
+    //transition: 0.2s;
+    animation: scaleOut 0.5s forwards;
 }
 
 
@@ -114,4 +118,28 @@ p.arrow-div {
 .div-icon-arrow{
     padding-bottom:28px;
     height: auto;
+}
+
+@keyframes scaleIn {
+    0% { 
+        transform: scale(0);
+    }
+
+    70% {
+        transform: scale(1.1)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes scaleOut {
+    0% {
+        transform: scale(1)
+    }
+
+    100% {
+        transform: scale(0)
+    }
 }
