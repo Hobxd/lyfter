@@ -15,15 +15,15 @@
         <?php $hero = get_field('hero');?>
 
         <img class="Pink-swirl" src="https://wordpressonvalet.test/wp-content/uploads/2024/10/Vector-1.png";>
-        <img class="house-bg animate-in" src="https://wordpressonvalet.test/wp-content/uploads/2024/10/c9ebc665a3313ee80613dea5a15ba824-scaled.jpeg";>
+        <img class="house-bg animate-in animate-bounce-in" src="https://wordpressonvalet.test/wp-content/uploads/2024/10/c9ebc665a3313ee80613dea5a15ba824-scaled.jpeg";>
         
-            <div class="phone-mockup animate-in">
+            <div class="phone-mockup animate-in animate-bounce-in">
 
                 <img class="phone-bg" src="https://wordpressonvalet.test/wp-content/uploads/2024/10/64c503569b0108989a092c920ec923ad.png";>
 
             </div>
 
-            <div class="watch-mockup animate-in">
+            <div class="watch-mockup animate-in animate-bounce-in">
 
             </div>
           
@@ -208,7 +208,7 @@
         </div>
     </section>
 
-    <!-- text-media-section-blauw -->
+    <!-- text-media-section-pink -->
 
      <section  class="text-media-pink w-full" >
 

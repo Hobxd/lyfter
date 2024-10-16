@@ -13,16 +13,16 @@ domReady(async () => {
 if (import.meta.webpackHot) import.meta.webpackHot.accept(console.error);
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const items = document.querySelectorAll('.animate-in');
+//  document.addEventListener("DOMContentLoaded", function() {
+  //  const items = document.querySelectorAll('.animate-in');
 
-  const slideIn = () => {
+  //  const slideIn = () => {
     
-    items.forEach((item) => {
-      item.classList.add('visible'); // Add class immediately
-     });
-  };
+   // items.forEach((item) => {
+    //  item.classList.add('visible'); // Add class immediately
+   //  });
+ // };
 
   // Trigger slide in on page load
-  slideIn();
-});
+ // slideIn();
+// });
